@@ -5,19 +5,33 @@
         <link href="https://fonts.googleapis.com/css2?family=Baloo&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>🐍 Snake Game 🐍</h1>
+        <h1>🐍 Anaconda Game 🐍</h1>
+        <h2>Help the Anaconda Grow</h2>
         <button id="inst-button">Instructions</button>
         <button id="start">Start the Game</button>
         <h2>Score <span id="score">0</span></h2>
         <div class="grid"></div>
+        <div id="controls">
+            <div>
+                <button id="up">⬆</button>
+            </div>
+            <div>
+                <button id="left">⬅</button>
+                <button id="right">➞</button>
+            </div>    
+            <div>
+                <button id="down">⬇</button>
+            </div>
+        </div>
         <div id="inst-overlay">
             <div id="instructions">
                  <h2>Instructions:</h2>
                  <ul>
                      <li>Click on start to move the snake</li>
                      <li>Don't Hit the Walls</li>
-                     <li>Don't hit the snake with the snake itself</li>
+                     <li>Don't hit the Anaconda with the Anaconda itself</li>
                      <li>In the above cases.. your game will be lost</li>
+                     <li>Use the provided buttons or your keyboard if you're using a PC</li>
                  </ul>
                  <button id="go-back">Go Back</button>
             </div>

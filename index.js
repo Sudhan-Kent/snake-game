@@ -4,6 +4,10 @@ const restartButton = document.getElementById('restart')
 const finishButton = document.getElementById('finish')
 const onceAgain = document.getElementById('startAgain')
 const instButton = document.getElementById('inst-button')
+const up = document.getElementById('up')
+const down = document.getElementById('down')
+const left = document.getElementById('left')
+const right = document.getElementById('right')
 const goBack = document.getElementById('go-back')
 const score = document.getElementById('score')
 const lost = document.querySelector('#overlay1')
@@ -122,19 +126,29 @@ function move() {
 
 function control(e) {
     if (e.keyCode === 39) {
-        console.log('right pressed')
         direction = 1
     } else if (e.keyCode === 38) {
-        console.log('up pressed')
         direction = -width
     } else if (e.keyCode === 37) {
-        console.log('left pressed')
         direction = -1
     } else if (e.keyCode === 40) {
-        console.log('down pressed')
         direction = +width
     }
 }
+
+up.addEventListener('click', function() {
+    direction = -width
+})
+down.addEventListener('click', function() {
+    direction = +width
+})
+left.addEventListener('click', function() {
+    direction = -1
+})
+right.addEventListener('click', function() {
+    direction = 1
+})
+
 document.addEventListener('keyup', control)
 startButton.addEventListener('click', startGame)
 restartButton.addEventListener('click', restartGame)
