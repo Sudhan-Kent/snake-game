@@ -37,7 +37,7 @@ html, body {
     margin: 0 auto;
     padding: 20px;
     position: relative;
-    top: 65%;
+    top: 35%;
     border-radius: 25px;
     box-shadow: 5px 5px 12px #888888;
 }
@@ -48,7 +48,7 @@ html, body {
     margin: 0 auto;
     padding: 20px;
     position: relative;
-    top: 45%;
+    top: 35%;
     border-radius: 25px;
     box-shadow: 5px 5px 12px #888888;
 }
