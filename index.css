@@ -1,6 +1,6 @@
 html, body {
-    margin: 10;
-    padding: 10;
+    margin: 1em;
+    padding: 1em;
     text-align: center;
     font-family: 'Readex Pro', sans-serif;
     font-weight: lighter;
@@ -9,36 +9,36 @@ html, body {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
-    height: 300px;
-    border: solid 2px black;
+    width: 20em;
+    height: 20em;
+    border: solid 0.1em black;
     margin-left: auto;
     margin-right: auto;
 }
 
 .square {
-    width: 30px;
-    height: 30px;
+    width: 2em;
+    height: 2em;
 }
 
 .snake {
     background-color: green;
-    border-radius: 13px;
+    border-radius: 0.9em;
 }
 
 .apple {
     background-color: blue;
-    border-radius: 15px ;
+    border-radius: 1em ;
 }
 
 #lost {
     background-color: coral;
     max-width: 500px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1em;
     position: relative;
     top: 35%;
-    border-radius: 25px;
+    border-radius: 1.5em;
     box-shadow: 5px 5px 12px #888888;
 }
 
@@ -46,10 +46,10 @@ html, body {
     background-color: coral;
     max-width: 500px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1em;
     position: relative;
     top: 35%;
-    border-radius: 25px;
+    border-radius: 1.5em;
     box-shadow: 5px 5px 12px #888888;
 }
 
@@ -58,10 +58,10 @@ html, body {
     text-align: left;
     max-width: 500px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1em;
     position: relative;
     top: 35%;
-    border-radius: 25px;
+    border-radius: 1.5em;
     box-shadow: 5px 5px 12px #888888;
 }
 
@@ -102,7 +102,7 @@ html, body {
 }
 
 #controls{
-    margin-top: 15px;
+    margin-top: 1em;
 }
 
 button {
